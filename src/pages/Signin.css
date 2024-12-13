@@ -1,0 +1,46 @@
+.signin{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(186, 186, 186);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin-box{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    width: 350px;
+}
+
+.form-div{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 20px;
+}
+
+.link{
+    margin: auto;
+}
+
+.btn{
+    color: white;
+    background-color: rgb(74, 74, 155);
+    font-weight: 500;
+}
+
+input{
+    padding: 5px;
+}
+
+.label{
+    display: flex;
+    flex-direction: column;
+}

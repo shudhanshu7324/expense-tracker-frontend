@@ -1,0 +1,36 @@
+.home{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(228, 228, 228);
+    padding: 30px;
+}
+
+.home-box{
+    height: 30vh;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgb(186, 186, 186);
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.home-box-modal{
+    opacity: 0.2;
+}
+
+.home-box h1{
+    text-align: center;
+}
+
+.home-box p{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.expense-home-button{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
